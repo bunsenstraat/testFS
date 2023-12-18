@@ -1,7 +1,7 @@
 import fs from "fs";
 
 // create 10000 directories in test directory and put a text file in each directory
-for (let i = 0; i < 500; i++) {
+for (let i = 0; i < 1000; i++) {
   try {
     fs.mkdirSync(`./test`);
   } catch (e) {
